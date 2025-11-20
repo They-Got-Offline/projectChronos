@@ -1,0 +1,371 @@
+Unity Editor version:    6000.0.61f1 (74a0adb02c31)
+Branch:                  6000.0/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.6.1 (Build 24G90)
+Darwin version:          24.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kHwWD1jVfoM4FEJSt3McW" at "2025-11-20T20:55:25.047046Z"
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.0.61f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/stefan/Downloads/Game
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57485
+-licensingIpc
+LicenseClient-kHwWD1jVfoM4FEJSt3McW
+-job-worker-count
+4
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name AssetImport
+Successfully changed project path to: /Users/stefan/Downloads/Game
+/Users/stefan/Downloads/Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8641618112]  Target information:
+
+Player connection [8641618112]  * "[IP] 172.20.51.190 [Port] 0 [Flags] 2 [Guid] 2379854359 [EditorId] 2379854359 [Version] 1048832 [Id] OSXEditor(0,Stefans-MacBook-Air-138.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8641618112] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8641618112] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 4
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.61f1 (74a0adb02c31)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.61f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/stefan/Downloads/Game/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M4 (high power)
+Metal devices available: 1
+0: Apple M4 (high power)
+Using device Apple M4 (high power)
+Initializing Metal device caps: Apple M4
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.61f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.61f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.0.61f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.61f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001100 seconds.
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1654, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              43e41d68a4f44495949ee5886083d491
+  Correlation Id:          2b59e38d4b22eb19aa068b24f729b698
+  External correlation Id: 4837517516213702266
+  Machine Id:              3353wrcSX8rvU1Ri1v9T2wYp7qg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-kHwWD1jVfoM4FEJSt3McW" (connect: 0.00s, validation: 0.00s, handshake: 0.96s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kHwWD1jVfoM4FEJSt3McW-notifications" at "2025-11-20T20:55:26.013397Z"
+[Licensing::Module] Licensing Background thread has ended after 0.97s
+- Loaded All Assemblies, in  0.412 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.400 seconds
+Domain Reload Profiling: 812ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (186ms)
+		LoadAssemblies (97ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (183ms)
+			TypeCache.Refresh (182ms)
+				TypeCache.ScanAssembly (168ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (400ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (354ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (170ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 1375872043684-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.682 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.872 seconds
+Domain Reload Profiling: 1554ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (472ms)
+		LoadAssemblies (249ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (268ms)
+			TypeCache.Refresh (210ms)
+				TypeCache.ScanAssembly (193ms)
+			BuildScriptInfoCaches (43ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (873ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (653ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (138ms)
+			ProcessInitializeOnLoadAttributes (452ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launching external process: /Applications/Unity/Hub/Editor/6000.0.61f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6658 unused Assets / (4.0 MB). Loaded Objects now: 7351.
+Memory consumption went from 138.5 MB to 134.5 MB.
+Total: 7.856292 ms (FindLiveObjects: 0.686750 ms CreateObjectMapping: 0.279167 ms MarkObjects: 5.205416 ms  DeleteObjects: 1.684417 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 24031.737714 seconds.
+  path: Assets/Inventory System by NashuaH/Items/Icons
+  artifactKey: Guid(44733c5e8d10e15418e15ebc539b5184) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Inventory System by NashuaH/Items/Icons using Guid(44733c5e8d10e15418e15ebc539b5184) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6766a61a37ae1d30b63ee4154d2518d4') in 0.293160083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Inventory System by NashuaH/Scripts/EditorScripts/InventoryEditor.cs
+  artifactKey: Guid(055dd4f9273d6014296a78869253dacb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Inventory System by NashuaH/Scripts/EditorScripts/InventoryEditor.cs using Guid(055dd4f9273d6014296a78869253dacb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b597fe5523ef69575bea544de0539781') in 0.04886075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/Inventory System by NashuaH/Scripts/ItemScripts/Weapon.cs
+  artifactKey: Guid(830a471aa6218094fb4284bf788e3276) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Inventory System by NashuaH/Scripts/ItemScripts/Weapon.cs using Guid(830a471aa6218094fb4284bf788e3276) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69062140e43214f58fd6931ef1ee5e5e') in 0.004683417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000993 seconds.
+  path: Assets/Inventory System by NashuaH/Scripts/EditorScripts
+  artifactKey: Guid(4e54708ff24724f46a0d3af29c1a88f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Inventory System by NashuaH/Scripts/EditorScripts using Guid(4e54708ff24724f46a0d3af29c1a88f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '930b5f2e8d6c8921a5fcca1674d571eb') in 0.005061958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Inventory System by NashuaH/Items/Icons/plain-dagger.png
+  artifactKey: Guid(dfd0a1c6a7815f54f968322df6ebcba8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Inventory System by NashuaH/Items/Icons/plain-dagger.png using Guid(dfd0a1c6a7815f54f968322df6ebcba8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81339ed6447d52dbd0d1e193cc429275') in 0.085413291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Inventory System by NashuaH/Scripts/DataScripts
+  artifactKey: Guid(f889a24518c8a9d4586e9322e2c18a96) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Inventory System by NashuaH/Scripts/DataScripts using Guid(f889a24518c8a9d4586e9322e2c18a96) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11808d5e2d932874f1b2abf506a7d1dc') in 0.005641916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Inventory System by NashuaH/Prefabs/SlotPrefab.prefab
+  artifactKey: Guid(5789e0683fd22124893d29b4457e1868) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Inventory System by NashuaH/Prefabs/SlotPrefab.prefab using Guid(5789e0683fd22124893d29b4457e1868) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb5018b6077f263ffbb530a34ab355cb') in 0.111766875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Inventory System by NashuaH/Scenes/ExampleScene.unity
+  artifactKey: Guid(a3fb5b99b96140540be305d990ab6a16) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Inventory System by NashuaH/Scenes/ExampleScene.unity using Guid(a3fb5b99b96140540be305d990ab6a16) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f836dacc6ad9892a3d96bee352bb4a47') in 0.008669709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Inventory System by NashuaH/Basic Inventory System.pdf
+  artifactKey: Guid(35b99ecaf0751bd4b92a3836b9f272f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Inventory System by NashuaH/Basic Inventory System.pdf using Guid(35b99ecaf0751bd4b92a3836b9f272f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b6bf03de28af4ce5172614b6811f011') in 0.005518708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Inventory System by NashuaH/Items/Icons/log.png
+  artifactKey: Guid(b47eb78033e00d64daebd6caa4f12dd0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Inventory System by NashuaH/Items/Icons/log.png using Guid(b47eb78033e00d64daebd6caa4f12dd0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4afb59c03d44ec62877cedfee48845dc') in 0.014510958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002685 seconds.
+  path: Assets/Inventory System by NashuaH/Scripts/InventorySlot.cs
+  artifactKey: Guid(42f08ccbb74740a40a2597eff106b649) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Inventory System by NashuaH/Scripts/InventorySlot.cs using Guid(42f08ccbb74740a40a2597eff106b649) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79656385e991811a3a9a39487c2c6f66') in 0.006787042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Inventory System by NashuaH/Prefabs
+  artifactKey: Guid(87542b43c5de3e04c9006ccc5ddd793b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Inventory System by NashuaH/Prefabs using Guid(87542b43c5de3e04c9006ccc5ddd793b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ecf0e72cd42828498e632e0da21ae5a') in 0.005771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Inventory System by NashuaH/Scenes
+  artifactKey: Guid(6ba2054cfc44abd4f815a551f2e05140) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Inventory System by NashuaH/Scenes using Guid(6ba2054cfc44abd4f815a551f2e05140) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3cee085515034d418babb3e4cede9710') in 0.005174875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001221 seconds.
+  path: Assets/Inventory System by NashuaH/Prefabs/InventoryExamplePrefab.prefab
+  artifactKey: Guid(46cd8e79fd3ddd644a9ec5c5b7dcd8e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Inventory System by NashuaH/Prefabs/InventoryExamplePrefab.prefab using Guid(46cd8e79fd3ddd644a9ec5c5b7dcd8e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ec2b0753a5d3ddd6e69cbfcbdc1a5e2') in 0.021042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Inventory System by NashuaH/Scripts/ItemScripts/Item.cs
+  artifactKey: Guid(8e63ce81d1de48343862dbb33f4fda3d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Inventory System by NashuaH/Scripts/ItemScripts/Item.cs using Guid(8e63ce81d1de48343862dbb33f4fda3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1711aeb2afa9b92c414e68c3e8b4926f') in 0.004315083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Inventory System by NashuaH/Scripts/ItemScripts/Consumable.cs
+  artifactKey: Guid(086ce4bd4efb77c4180089179b220146) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Inventory System by NashuaH/Scripts/ItemScripts/Consumable.cs using Guid(086ce4bd4efb77c4180089179b220146) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29ae795b955428a3de4b7c1d6e82eb82') in 0.004204792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Inventory System by NashuaH/Items/Icons/herbs-bundle.png
+  artifactKey: Guid(339a01af7e4e2fe4ea21882c0918eea3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Inventory System by NashuaH/Items/Icons/herbs-bundle.png using Guid(339a01af7e4e2fe4ea21882c0918eea3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ca3d64adf6cd42dde7a823891c4e426') in 0.017328209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
